@@ -5,26 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
-    
-    <body>
-    задание 23.10.2024
-        <div id="diagram"> </div>
-    </body>
-        <script>
-            let names= ['Москва','Рим','Париж'];
-            let population=[8000000,5000000,7000000];
-            let elem=document.createElement("div")
-            elem.style.width='50px'
-            elem.style.height=population[2]/100000+'px'
-            elem.style.backgroundColor="blue"
-            document.body.append(elem)
-            let diagram = document.getElementById('diagram')
-            let elem2 = document.createElement('div')
-            elem2.innerText = names[2]                                                                        
-            diagram.append(elem2);
-
-        </script>
-    
+<body>
+    задния от 23.10.2023
+    <div id="diagram"></div>
+</body>
+    <script>
+   
+        let names= ['Москва','Рим','Париж'];
+        let population=[8000000,500000,700000];
+        let elem=document.createElement("div")
+        elem.style.width='50px'
+        elem.style.height=population[0]/100000+'px'
+        elem.style.backgroundColor="black"
+        document.body.append(elem)
+        let diagram = document.getElementById('diagram')
+        let elem2 = document.createElement('div')
+        elem2.innerText = names[0]
+        diagram.append(elem2);
+    </script>
 
 </html>
